@@ -1,0 +1,54 @@
+div>section {
+    background-color: gray;
+    border: 2px solid black;
+    width:fit-content;
+    padding:10px;
+    position:relative;
+    padding-top:70px;
+    height:max-content;
+
+}
+
+h1
+{
+    text-align:center;
+}
+
+
+
+#chicken>h2{
+    background-color: red;
+    border:3px solid black;
+    text-align: right;
+    padding:6px;
+    width:fit-content;
+    float:right;
+    position:relative;
+    bottom:70px;
+    margin:0px;
+    
+    
+
+}
+#beef>h2{
+    background-color: orange;
+    border:3px solid black;
+    padding:6px;
+    width:fit-content;
+    float:right;
+    position:relative;
+    bottom:70px;
+    margin:0px;
+    
+}
+
+#sushi>h2{
+    background-color: purple;
+    border:3px solid black;
+    padding:6px;
+    width:fit-content;
+    float:right;
+    position:relative;
+    bottom:70px;
+    margin:0px;
+}
