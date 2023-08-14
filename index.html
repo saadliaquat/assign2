@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+
+
+    @media(min-width:992px)
+    {
+        .col-lg-4
+        {
+            float:left;
+            width:33%;
+        }
+    }
+
+    @media(min-width: 768px) and (max-width: 991px)
+    {
+        .col-md-6
+        {
+            float:left;
+            width:50%;
+        }
+    }
+
+    @media(max-width: 767px)
+    {
+        .col-sm-2
+        {
+            width:100%;
+        }
+    }
+
+    body>div{
+        padding:2px;
+    }
+
+    section>div{
+        height:70px;
+    }
+
+    
+
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment2style.css">
+    <title>Assignment Solution for module 2</title>
+</head>
+<body>
+
+    <h1>Our Menu</h1>
+    <div class="col-lg-4 col-md-6 col-sm-2">
+    <section id="chicken">
+        <h2>Chicken</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-2">
+    <section id="beef">
+            <h2>Beef</h2>
+            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    </section>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-2">
+    <section id="sushi">
+        <h2>Sushi</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    </section>
+    </div>
+
+</body>
+</html>
